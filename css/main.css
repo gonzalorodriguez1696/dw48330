@@ -1,0 +1,13 @@
+.contenedor_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "encabezado encabezado" "principal principal" "pie_de_pagina pie_de_pagina";
+}
+
+.contenedor_grid--galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "pos1 pos2 pos3" "pos4 pos5 pos6" "pos7 pos8 pos9";
+}/*# sourceMappingURL=main.css.map */
